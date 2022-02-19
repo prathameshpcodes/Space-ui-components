@@ -1,0 +1,74 @@
+/* align items */
+
+.alg-i-start{
+    align-items:flex-start
+}
+
+.alg-i-end{
+    align-items:flex-end
+}
+
+.alg-i-ctr{
+    align-items:center
+}
+
+.alg-i-bl{
+    align-items:baseline
+}
+
+.alg-i-str{
+    align-items:stretch
+}
+
+/* justify content */
+.justify-c-start{
+    justify-content: flex-start
+}
+
+.justify-c-end{
+    justify-content: flex-end
+}
+
+.justify-c-ctr{
+    justify-content: center;
+}
+
+.justify-c-sb{
+    justify-content:space-between
+}
+
+.justify-c-sa{
+    justify-content:space-around
+}
+
+.justify-c-se{
+    justify-content: space-evenly;
+}
+
+.justify-c-initial{
+    justify-content:initial
+}
+
+.justify-c-inherit{
+    justify-content:inherit
+}
+
+.shrink-0 {
+    flex-shrink: 0;
+}
+
+.gap-1{
+    gap: 1rem;
+
+}
+.gap-1p5{
+    gap:1.5rem;
+}
+
+.gap-2{
+    gap:2rem;
+}
+
+.gap-2p5{
+    gap:2.5rem
+}

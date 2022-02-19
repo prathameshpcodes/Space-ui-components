@@ -1,0 +1,17 @@
+.border-r-full{
+    border-radius: 9999px;}
+
+.border-r-l{
+    border-radius:1rem
+}
+
+.border-r-none{
+    border-radius:0px;
+}
+.border-r-sm{
+    border-radius:0.25rem;
+}
+
+.border-r-unset{
+    border-radius: unset;
+}

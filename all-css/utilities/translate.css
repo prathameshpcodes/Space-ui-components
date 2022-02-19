@@ -1,0 +1,34 @@
+.translate-y {
+    transition: transform 0.2s;
+  }
+  
+  .translate-y-above {
+    transform: translateY(-10%);
+  }
+  .translate-y-above:hover {
+    transform: translateY(-10%);
+  }
+
+  .translate-y-below {
+    transform: translateY(-10%);
+  }
+
+  .translate-y-below:hover {
+    transform: translateY(-10%);
+  }
+
+
+  .translate-x-above {
+    transform: translateX(-10%);
+  }
+  .translate-x-above:hover {
+    transform: translateX(-10%);
+  }
+  
+  .translate-x-below {
+    transform: translateX(-10%);
+  }
+
+  .translate-x-below:hover {
+    transform: translateX(-10%);
+  }

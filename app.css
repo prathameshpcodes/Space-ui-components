@@ -1,0 +1,29 @@
+@import url("./all-css/main.css");
+
+body{
+    background-color:var(--color-slate-50);
+    font-size:1.5rem;
+}
+html{
+    font-size: 62.5%;
+}
+
+/* container */
+.container{
+    
+max-width: 100rem;
+padding: 2rem;
+    background-color: var(--color-slate-20);
+    color:var(--color-blue-800)
+}
+
+/* component section */
+
+.component-section{
+    margin:2rem 0;
+    border-top: thin solid var(--color-blue-800);
+}
+
+.cs-heading{
+    margin: 2rem 0 ;
+}

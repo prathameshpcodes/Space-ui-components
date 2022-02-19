@@ -1,0 +1,18 @@
+
+.img{
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--color-slate-400);
+    height: 25rem;
+    width: 25rem;
+}
+.img-responsive{
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--color-slate-400);
+  width: 100%;
+}
+
+.img-round{
+border-radius: 50%;
+}
+
+.img-squared{
+    border-radius: 2.5rem;
+}

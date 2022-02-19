@@ -1,0 +1,32 @@
+.border-solid{
+    border-style: solid;
+}
+
+.border-thin{
+    border-style: thin;
+}
+
+.border-none{
+    border-style:none
+}
+
+.border-brand {
+    border-color: var(--color-brand);
+  }
+  
+  .border-lime-500 {
+    border-color: var(--color-lime-500);
+  }
+  
+  .border-slate-300 {
+    border-color: var(--color-slate-300);
+  }
+  
+  .border-slate-500 {
+    border-color: var(--color-slate-500);
+  }
+  
+  .border-slate-600-hover:hover {
+    border-color: var(--color-slate-600);
+  }
+  

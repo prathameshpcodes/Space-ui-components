@@ -1,0 +1,109 @@
+.btn{
+border-radius: 0.3rem;
+margin: 0.5rem;
+padding: 1rem 2rem;
+background:none;
+border:none;
+transition: background-color 0.5s;
+
+}
+
+/* error btn solid*/
+.error-btn-solid{
+background: var(--color-red-500);
+border:thin solid var(--color-red-500);
+color:var(--color-white)
+}
+
+/* primary btn solid */
+.primary-btn-solid{
+    background: var(--color-blue-400);
+border:thin solid var(--color-blue-400);
+color:var(--color-white)
+}
+/* secondary btn solid */
+.secondary-btn-solid{
+    background: var(--color-orange-400);
+    border:thin solid var(--color-orange-400);
+    color:var(--color-white)
+
+
+}
+
+/* sucess btn solid */
+.sucess-btn-solid{
+    background: var(--color-green-400);
+    border:thin solid var(--color-green-400);
+    color:var(--color-white)
+}
+
+/* error btn outline */
+.error-btn-outline{
+    border:thin solid var(--color-red-500);
+color:var(--color-red-500);
+}
+
+/*  primary btn outline*/
+.primary-btn-outline{
+border: thin solid var(--color-blue-400);
+color:var(--color-blue-400);
+
+}
+
+/* secondary btn outline */
+.secondary-btn-outline{
+    color:var(--color-orange-400);
+    border: thin solid var(--color-orange-400)
+}
+
+/* sucess btn outline */
+.sucess-btn-outline{
+    color:var(--color-green-400);
+    border: thin solid var(--color-green-400)
+}
+
+/* icon btn */
+
+/* icon btn filled */
+.icon-btn-solid{
+    border-radius: 1rem;
+}
+/* icon btn outline */
+.icon-btn-outline{
+    border-radius: 1rem;
+}
+
+.icon-btn-outline{
+    border-radius: 1rem;
+}
+
+
+/* link button */
+.btn-link{
+    border-radius:4rem
+}
+
+
+/* floating btn */
+.floating-btn{
+align-items: center;
+background: var(--color-green-400);
+border: medium solid var(--color-green-200);
+border-radius: 50%;
+box-shadow: 0.2rem 0.2rem 1rem 0.1rem var(--color-slate-600);
+display: flex;
+font-size: 2rem;
+height: 5rem;
+justify-content: center;
+transition: transform 0.2s;
+width: 5rem;
+color:white;
+}
+
+.floating-btn:focus-visible {
+    outline: none;
+  }
+  
+  .floating-btn:hover {
+    transform: translateY(-25%);
+  }

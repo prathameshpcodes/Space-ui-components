@@ -1,0 +1,89 @@
+.card{
+    display:flex;
+    background-color: var(--color-white);
+    border-radius: 0.30rem;
+
+}
+
+.card-dismiss{
+    flex-direction: column;
+    max-width: 40rem;
+    border-radius: 1rem;
+    padding:1.5rem;
+    box-shadow: 0 0 1rem 0.2rem var(--color-slate-300);
+}
+
+.card-head{
+    font-size: 2rem;
+    margin: 1rem;
+
+}
+
+.card-text{
+font-size: 1.6rem;
+line-height: 1.4em;
+margin: 0.5rem 1rem;
+}
+
+.card-vertical{
+    flex-direction: column;
+    max-width: 35rem;
+}
+
+.card-vertical-header{
+    display:flex;
+    padding:0.5rem 1rem;
+}
+
+.card-icon-btn{
+    display: flex;
+font-size: 2rem;
+height: 4rem;
+    background: none;
+border: none;
+border-radius: 50%;
+color: var(--color-red-500);
+
+width: 4rem;
+}
+
+.card-vertical-image{
+    height: 20rem;
+width: 100%;
+}
+
+.card-vertical-footer{
+    margin-left: 0.5rem;
+padding: 1rem 0;
+}
+
+.price{
+    font-size: 1.7rem;
+    margin: 0.5rem;
+}
+
+.discount-price{
+    text-decoration: line-through;
+    margin: 0.5rem;
+}
+
+.discount-percent{
+    
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    color: var(--color-red-500);
+}
+
+.seller-badge{
+    background-color: var(--color-yellow);
+color: var(--color-white);
+padding: 0.3rem 0.65rem;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+position: absolute;
+top: 10px;
+left: -3px;
+font-size: 0.8rem;
+letter-spacing: 0.3px;
+
+}

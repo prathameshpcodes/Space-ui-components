@@ -1,0 +1,26 @@
+.list-circle {
+    list-style: circle;
+  }
+  
+  .list-disc {
+    list-style: disc;
+  }
+  
+  .list-upper-alphabet{
+      list-style:upper-alpha;
+  }
+  .list-lower-alphabet {
+    list-style: lower-alpha;
+  }
+  
+  .list-upper-roman{
+      list-style: upper-roman;
+  }
+  
+  .list-lower-roman {
+    list-style: lower-roman;
+  }
+  
+  .list-square {
+    list-style: square;
+  }

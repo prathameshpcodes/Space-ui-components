@@ -1,0 +1,79 @@
+.alert{
+    border-radius: 1rem;
+    border-radius: 0.5rem;
+font-weight: bold;
+margin: 1rem 0;
+max-width: 45rem;
+padding: 1rem;
+
+}
+/* danger alert  */
+.alert-danger-solid{
+    background-color:var(--color-red-300);
+    color:var(--color-red-600);
+    
+}
+
+.alert-danger-outline{
+        color:var(--color-red-600);
+        border: thin solid var(--color-red-300);
+        
+    
+}
+
+/* primary */
+.alert-primary-solid{
+    background-color:var(--color-blue-400);
+    color:var(--color-blue-900);
+}
+
+.alert-primary-outline{
+    border:thin solid var(--color-blue-400);
+    color:var(--color-blue-900);
+}
+
+/* secondary */
+
+.alert-secondary-solid{
+    background-color:var(--color-orange-400);
+    color:var(--color-orange-700);
+}
+.alert-secondary-outline{
+    border:thin solid var(--color-orange-400);
+    color:var(--color-orange-700)
+}
+
+/* sucess */
+.alert-sucess-solid{
+    background-color:var(--color-green-400);
+    color:var(--color-green-700);
+}
+
+.alert-sucess-outline{
+    border:thin solid var(--color-green-400);
+    color:var(--color-green-700);
+}
+
+/* Warning  */
+
+.alert-warning-solid{
+    background-color:var(--color-amber-400);
+    color:var(--color-amber-700);
+}
+
+.alert-warning-outline{
+    border:thin solid var(--color-amber-400);
+    color:var(--color-amber-700);
+}
+
+/* info */
+
+.alert-info-solid{
+    background-color:var(--color-cyan-400);
+    color:var(--color-cyan-700);
+}
+
+.alert-info-outline{
+    border:thin solid var(--color-cyan-400);
+    color:var(--color-cyan-700);
+}
