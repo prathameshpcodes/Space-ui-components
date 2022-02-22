@@ -1,94 +1,126 @@
-.card{
-    display:flex;
-    background-color: var(--color-white);
-    border-radius: 0.30rem;
-
+.card {
+  display: flex;
+  background-color: var(--color-white);
+  border-radius: 0.3rem;
 }
 
-.card-dismiss{
-    flex-direction: column;
-    max-width: 40rem;
-    border-radius: 1rem;
-    padding:1.5rem;
-    box-shadow: 0 0 1rem 0.2rem var(--color-slate-300);
+.card-dismiss {
+  flex-direction: column;
+  max-width: 40rem;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 0 1rem 0.2rem var(--color-slate-300);
 }
 
-.card-head{
-    font-size: 2rem;
-    margin: 1rem;
-
+.card-head {
+  font-size: 2rem;
+  margin: 1rem;
 }
 
-.card-text{
-font-size: 1.6rem;
-line-height: 1.4em;
-margin: 0.5rem 1rem;
+.card-text {
+  font-size: 1.6rem;
+  line-height: 1.4em;
+  margin: 0.5rem 1rem;
 }
 
-.card-vertical{
-    flex-direction: column;
-    max-width: 35rem;
+.card-vertical {
+  flex-direction: column;
+  max-width: 35rem;
 }
 
-.card-vertical-header{
-    display:flex;
-    padding:0.5rem 1rem;
-    align-items: center;
+.card-vertical-header {
+  display: flex;
+  padding: 0.5rem 1rem;
+  align-items: center;
 }
 
-.card-icon-btn{
-    display: flex;
-font-size: 2rem;
-height: 4rem;
-    background: none;
-border: none;
-border-radius: 50%;
-color: var(--color-red-500);
+.card-icon-btn {
+  display: flex;
+  font-size: 2rem;
+  height: 4rem;
+  background: none;
+  border: none;
+  border-radius: 50%;
+  color: var(--color-red-500);
 
-width: 4rem;
+  width: 4rem;
 }
 
-.card-vertical-image{
-    height: 20rem;
-width: 100%;
+.card-vertical-img {
+  height: 20rem;
+  width: 100%;
 }
 
-.card-vertical-footer{
-    margin-left: 0.5rem;
-padding: 1rem 0;
+.card-vertical-footer {
+  margin-left: 0.5rem;
+  padding: 1rem 0;
 }
 
-.price{
-    font-size: 1.7rem;
-    margin: 0.5rem;
+.price {
+  font-size: 1.7rem;
+  margin: 0.5rem;
 }
 
-.discount-price{
-    text-decoration: line-through;
-    margin: 0.5rem;
+.discount-price {
+  text-decoration: line-through;
+  margin: 0.5rem;
 }
 
-.discount-percent{
-    
-    font-size: 1.5rem;
-    margin: 0.5rem;
-    color: var(--color-red-500);
+.discount-percent {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  color: var(--color-red-500);
 }
 
-.seller-badge{
-    
-        background: var(--color-red-600);
-        font-size: 1.5rem;
-        font-weight: 600;
-        margin-left: -1.2rem;
-        padding: 0.5rem;
-        padding-right: 2rem;
-        position: relative;
-      
-
+.seller-badge {
+  background: var(--color-red-600);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: -1.2rem;
+  padding: 0.5rem;
+  padding-right: 2rem;
+  position: relative;
 }
 
-.card-cart{
-    max-width: 45rem;
-    overflow: hidden;
-} 
+.card-cart {
+  max-width: 45rem;
+  overflow: hidden;
+}
+
+.card-text-overlay {
+  cursor: pointer;
+  position: relative;
+}
+
+.overlay-content {
+  align-items: center;
+  background: rgba(51, 65, 85, 0.5);
+  color: var(--color-white);
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.5s;
+}
+.card-text-overlay-row {
+  flex-direction: row;
+  display: flex;
+  padding: 1rem 1.5rem;
+}
+
+.overlay-play-icon {
+  font-size: 1.8rem;
+  margin: 0 1rem;
+}
+
+.card-horizontal-img {
+  border-radius: 50%;
+  box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--color-slate-400);
+  height: 5rem;
+  width: 5rem;
+}
+
+.card-text-overlay:hover .overlay-content {
+  opacity: 1;
+}
