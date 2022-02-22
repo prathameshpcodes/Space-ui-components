@@ -339,7 +339,7 @@ referrerpolicy="no-referrer"></script>
             <i class="fa-regular fa-heart m-auto "></i>
         </button>
     </div>
-    <img class="card-vertical-image" src="/all-css/assets/demo-product-1.jpg" alt="">
+    <img class="card-vertical-image" src="all-css/assets/demo-product-1.jpg" alt="">
     <h1 class="card-head">Survey Corps Logo Pin</h1>
     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur praesentium minus saepe fugit quo illo voluptatibus tempora nulla in. Quas expedita itaque placeat dolorum accusantium voluptatum quis, dignissimos sit quisquam.</p>
 
@@ -379,36 +379,99 @@ referrerpolicy="no-referrer"></script>
 
     <!-- item card with bestseller ends -->
 
-    <!-- vertical card starts -->
-
+    
     <section class="component-section">
-        <h2 class="cs-heading">Horizontal item card</h2>
-        <img class="max-w-20"src="/all-css/assets/demo-product-1.jpg" alt="">
-        <div class="p-3 w-25  flex-column flex">
-            <h3 class="fs-l">Survey Corps Logo Pin</h3>
-            <div class="my-1">
-            <span class="price">₹139.00</span>
-            <span class="discount-price">₹1000.00</span>
-            </div>
+        <h2 class="cs-heading"> Card with Overlay </h2>
+    <div class="card card-text-overlay card-vertical box-light">
+        <img
+          loading="lazy"
+          class="card-vertical-img"
+          src="/all-css/assets/trailer-thumbnail.jpg"
+          alt="AOT final trailer jpg"
+        />
 
-            
-            <span class="discount-percent ml-0">90%</span>
-            
+        <span class="card-vertical-img overlay-content"
+          ><i class="fas fa-play overlay-play-icon"></i> Play</span
+        >
 
+        <div class="card-text-overlay-row">
+          <img
+            loading="lazy"
+            class="card-horizontal-img"
+            src="/all-css/assets/netflixlogo.jpg"
+            alt="netflix"
+          />
 
-        
-        
-        
+          <div>
+            <h1 class="card-head">
+              Attack On Titan | Final Trailer
+            </h1>
+            <p class="card-text">Netflix</p>
+          </div>
         </div>
-        
-    
-        
-        </section>
-    
-
-    <!-- vertical card ends -->
-
+      </div>
+</section>
 <!-- card ends -->
-    
+
+
+<!-- grid starts -->
+<section class="component-section">
+    <h2 class="cs-heading">Two Columns Grid</h2>
+
+    <div class="bg-purple border-r-0p2 grid grid-cols-2 p-1 ">
+      <div class="bg-purple border-r-0p2 fw-bold mx-0p5 p-1 text-white">
+        Grid Item One
+      </div>
+      <div class="bg-purple border-r-0p2 fw-bold mx-0p5 p-1 text-white">
+        Grid Item Two
+      </div>
+    </div>
+  </section>
+
+  <section class="component-section">
+    <h2 class="cs-heading">Two Rows Grid</h2>
+
+    <div class="bg-purple border-r-sm grid grid-rows-2 p-1 text-white">
+      <div class="bg-violet border-r-sm fw-bold my-1 p-1 text-white">
+        Grid Item One
+      </div>
+      <div class="bg-purple border-r-sm fw-bold my-1 p-1 text-white">
+        Grid Item Two
+      </div>
+    </div>
+  </section>
+
+  <section class="component-section">
+    <h2 class="cs-heading">Three Columns Grid</h2>
+
+    <div class="bg-purple border-r-sm grid grid-cols-3 p-1 text-white">
+      <div class="bg-violet border-r-sm fw-bold mx-1 p-1 text-white">
+        Grid Item One
+      </div>
+      <div class="bg-violet border-r-sm fw-bold mx-1 p-1 text-white">
+        Grid Item Two
+      </div>
+      <div class="bg-violet border-r-sm fw-bold mx-1 p-1 text-white">
+        Grid Item Three
+      </div>
+    </div>
+  </section>
+
+  <section class="component-section">
+    <h2 class="cs-heading">Three Rows Grid</h2>
+
+    <div class="bg-purple border-r-sm grid grid-rows-3 p-1 text-white">
+      <div class="bg-violet border-r-sm fw-bold my-1 p-1 text-white">
+        Grid Item One
+      </div>
+      <div class="bg-violet border-r-sm fw-bold my-1 p-1 text-white">
+        Grid Item Two
+      </div>
+      <div class="bg-violet border-r-sm fw-bold my-1 p-1 text-white">
+        Grid Item Three
+      </div>
+    </div>
+  </section>
+<!-- grid ends -->
 </body>
 </html>
