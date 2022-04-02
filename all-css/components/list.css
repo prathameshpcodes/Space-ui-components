@@ -1,0 +1,34 @@
+.stacked-list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin: 3rem auto;
+  max-width: 35rem;
+  padding: 2rem 0;
+}
+.stacked-list a span {
+  color: var(--color-slate-500);
+  margin-left: auto;
+}
+.stacked-list a {
+  color: var(--color-slate-800);
+  display: flex;
+}
+
+.stacked-list li {
+  background: var(--color-white);
+  border-radius: 0.2rem;
+  font-size: 2rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.stacked-list .viewed {
+  color: var(--color-lime-500);
+}
+
+.stacked-list .viewed span {
+  color: var(--color-lime-500);
+  margin-left: auto;
+}
