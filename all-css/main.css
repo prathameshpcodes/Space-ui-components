@@ -10,6 +10,7 @@
 @import url("components/images.css");
 @import url("components/card.css");
 @import url("components/modal.css");
+@import url("components/toast.css");
 
 /* importing utilities */
 @import url("utilities/font-size.css");

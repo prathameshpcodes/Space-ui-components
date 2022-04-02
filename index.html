@@ -523,9 +523,98 @@ referrerpolicy="no-referrer"></script>
           </div>
         </div>
       </section>
-
-
 <!-- modal ends -->
+<!-- toast starts -->
+<section class="component-section">
+  <h2 class="cs-heading">Toast Notification</h2>
+  <div class="toast">
+    <div class="toast-head">
+      Notification 🎉
+      <button class="toast-cross text-red">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <p class="toast-msg">
+      Hey! build blazing-fast websites using
+      <a class="toast-link" href="https://space.netlify.app">Space UI🚀</a>
+    </p>
+  </div>
+  </section>
+
+  <section class="component-section">
+    <h2 class="cs-heading">Toast Notification Demo</h2>
+    <button
+    id="notification-toast-demo-btn"
+    class="btn primary-btn-solid border-r-l"
+  >
+    Toast Demo Btn
+  </button>
+
+  <div id="notification-toast" class="d-none toast toast-fixed">
+    <div class="toast-head">
+      Notification 🎉
+      <button id="toast-cross-btn" class="toast-cross text-red">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <p class="toast-msg">
+      Hey! build blazing-fast websites using
+      <a class="toast-link" href="https://space.netlify.app">Space UI🚀</a>
+    </p>
+  </div>
+    </section>
+
+    <section class="component-section">
+      <h2 class="cs-heading">Stacked Notification Toast Demo</h2>
+      <button
+    id="first-stacked-toast-btn"
+    class="btn primary-btn-solid border-r-l"
+  >
+    Stacked Toast 1
+  </button>
+  <button
+    id="second-stacked-toast-btn"
+    class="btn primary-btn-solid border-r-l"
+  >
+    Stacked Toast 2
+  </button>
+
+  <ul class="stacked-toast toast-fixed">
+    <li class="mt-1">
+      <div id="stacked-toast-2" class="d-none toast">
+        <div class="toast-head">
+          Notification 🎉
+          <button id="stacked-toast-2-cross-btn" class="toast-cross text-red">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <p class="toast-msg">
+          Hey! build blazing-fast websites using
+          <a class="toast-link" href="https://space.netlify.app">Space UI🚀</a>
+        </p>
+      </div>
+    </li>
+
+    <li class="mt-1">
+      <div id="stacked-toast-1" class="d-none toast">
+        <div class="toast-head">
+          Notification 🎉
+          <button id="stacked-toast-1-cross-btn" class="toast-cross text-red">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <p class="toast-msg">
+          Hey! build blazing-fast websites using
+          <a class="toast-link" href="https://space.netlify.app">Space UI🚀</a>
+        </p>
+      </div>
+    </li>
+  </ul>
+    </section>
+<!-- toast ends -->
 
   <script src="js/index.js"></script>
 </body>
