@@ -1,0 +1,28 @@
+.ratings {
+  border: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.half-star {
+  width: 1.65rem;
+  overflow: hidden;
+  transform: translateX(100%);
+}
+.ratings input {
+  display: none;
+}
+
+.ratings label,
+.rating-star {
+  color: var(--color-slate-300);
+  cursor: pointer;
+  font-size: 4rem;
+  position: relative;
+}
+
+.ratings label:hover,
+.ratings label:hover ~ label,
+.rating-star.filled {
+  color: var(--color-amber-600);
+}
