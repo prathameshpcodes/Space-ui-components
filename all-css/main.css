@@ -9,6 +9,7 @@
 @import url("components/input.css");
 @import url("components/images.css");
 @import url("components/card.css");
+@import url("components/modal.css");
 
 /* importing utilities */
 @import url("utilities/font-size.css");
@@ -34,7 +35,3 @@
 @import url("utilities/box-shadow.css");
 @import url("utilities/translate.css");
 @import url("utilities/height.css");
-
-
-
-
