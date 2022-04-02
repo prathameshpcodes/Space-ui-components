@@ -2,66 +2,72 @@
 
 /* syntax: .bg-(color)-(shade) */
 
-.bg-white{
-    background-color: var(--color-white);
+.bg-white {
+  background-color: var(--color-white);
 }
 
-.bg-white:hover{
-    background-color: var(--color-white);
+.bg-white:hover {
+  background-color: var(--color-white);
 }
 
-.bg-black{
-    background-color: var(--color-black);
+.bg-black {
+  background-color: var(--color-black);
 }
 
-.bg-red{
-    background-color: var(--color-red-600)
+.bg-red {
+  background-color: var(--color-red-600);
 }
 
-.bg-red:hover{
-    background-color: var(--color-red-600)
+.bg-red:hover {
+  background-color: var(--color-red-600);
 }
 
-.bg-slate{
-    background-color: var(--color-slate-500)
+.bg-slate {
+  background-color: var(--color-slate-500);
 }
 
-.bg-slate:hover{
-    background-color: var(--color-slate-500)
+.bg-slate:hover {
+  background-color: var(--color-slate-500);
 }
 
-.bg-gray{
-    background-color:var(--color-gray-500)
+.bg-gray {
+  background-color: var(--color-gray-500);
 }
 
-.bg-orange{
-    background-color:var(--color-orange-600)
+.bg-orange {
+  background-color: var(--color-orange-600);
 }
 
-.bg-yellow{
-    background-color: var(--color-yellow-500)
-
+.bg-yellow {
+  background-color: var(--color-yellow-500);
 }
 
-.bg-lime{
-    background-color:var(--color-lime-500)
+.bg-lime {
+  background-color: var(--color-lime-500);
 }
 
-.bg-blue{
-    background-color:var(--color-blue-600)
+.bg-blue {
+  background-color: var(--color-blue-600);
 }
 
-.bg-violet{
-    background-color:var(--color-violet-600)
+.bg-violet {
+  background-color: var(--color-violet-600);
 }
 
-.bg-purple{
-    background-color:var(--color-purple-600)
-}
-.bg-amber{
-    background-color:var(--color-amber-600)
-}
-.bg-unset{
-    background: unset;
+.bg-purple {
+  background-color: var(--color-purple-600);
 }
 
+.bg-amber {
+  background-color: var(--color-amber-600);
+}
+.bg-unset {
+  background: unset;
+}
+.bg-olivegreen {
+  background-color: var(--color-olivegreen);
+}
+
+.bg-pastelgreen {
+  background-color: var(--color-pastelgreen);
+}

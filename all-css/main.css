@@ -13,6 +13,7 @@
 @import url("components/toast.css");
 @import url("components/rating.css");
 @import url("components/tooltip.css");
+@import url("components/list.css");
 
 /* importing utilities */
 @import url("utilities/font-size.css");
