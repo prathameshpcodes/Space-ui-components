@@ -11,6 +11,7 @@
 @import url("components/card.css");
 @import url("components/modal.css");
 @import url("components/toast.css");
+@import url("components/rating.css");
 
 /* importing utilities */
 @import url("utilities/font-size.css");
