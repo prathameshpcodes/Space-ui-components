@@ -9,6 +9,7 @@
 @import url("components/input.css");
 @import url("components/images.css");
 @import url("components/card.css");
+@import url("components/modal.css");
 
 /* importing utilities */
 @import url("utilities/font-size.css");
@@ -28,13 +29,9 @@
 @import url("utilities/text-align.css");
 @import url("utilities/background.css");
 @import url("utilities/flex.css");
-@import url("utilities/display");
+@import url("utilities/display.css");
 @import url("utilities/border.css");
 @import url("utilities/grid.css");
 @import url("utilities/box-shadow.css");
 @import url("utilities/translate.css");
 @import url("utilities/height.css");
-
-
-
-
