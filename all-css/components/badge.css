@@ -13,6 +13,16 @@
     width: 1.5rem;
   }
 
+.status-badge {
+  background: var(--color-red-500);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: -1.2rem;
+  padding: 0.5rem;
+  padding-right: 0.5rem;
+  padding-right: 2rem;
+  position: relative;
+}
   .badge-btn {
     background: none;
     border: none;

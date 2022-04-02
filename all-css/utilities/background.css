@@ -61,4 +61,7 @@
 .bg-amber{
     background-color:var(--color-amber-600)
 }
+.bg-unset{
+    background: unset;
+}
 

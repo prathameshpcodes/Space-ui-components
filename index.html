@@ -336,10 +336,10 @@ referrerpolicy="no-referrer"></script>
     <div class="card card-vertical ">
     <div class="card-vertical-header">
         <button class="ml-auto card-icon-btn ">
-            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-heart m-auto "></i>
         </button>
     </div>
-    <img class="card-vertical-image" src="/all-css/assets/demo-product-1.jpg" alt="">
+    <img class="card-vertical-image" src="all-css/assets/demo-product-1.jpg" alt="">
     <h1 class="card-head">Survey Corps Logo Pin</h1>
     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur praesentium minus saepe fugit quo illo voluptatibus tempora nulla in. Quas expedita itaque placeat dolorum accusantium voluptatum quis, dignissimos sit quisquam.</p>
 
@@ -358,9 +358,9 @@ referrerpolicy="no-referrer"></script>
         <h2 class="cs-heading">Item Card with bestseller badge </h2>
         <div class="card card-vertical ">
         <div class="card-vertical-header">
-            <span class="seller-badge mr-auto">Bestseller</span>
+            <span class="seller-badge mr-auto text-centre w-6.5 text-white">Bestseller</span>
             <button class="ml-auto card-icon-btn ">
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-heart m-auto"></i>
             </button>
         </div>
         <img class="card-vertical-image" src="/all-css/assets/demo-product-1.jpg" alt="">
@@ -373,63 +373,110 @@ referrerpolicy="no-referrer"></script>
             <span class="discount-percent">90%</span>
     
         </div>
+
     </div>
         </section>
 
+
 <!-- card ends -->
 
-<!-- modal starts -->
-<section class="component-section">
-    <h2 class="cs-heading">Modal</h2>
-    <div class="modal">
-        <div class="modal-head">Modal Head</div>
+    <!-- item card with bestseller ends -->
 
-        <p class="modal-body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
+    
+    <section class="component-section">
+        <h2 class="cs-heading"> Card with Overlay </h2>
+    <div class="card card-text-overlay card-vertical box-light">
+        <img
+          loading="lazy"
+          class="card-vertical-img"
+          src="/all-css/assets/trailer-thumbnail.jpg"
+          alt="AOT final trailer jpg"
+        />
 
-        <div class="modal-foot">
-          <button class="btn primary-btn-outline">Close</button>
-          <button class="btn primary-btn-solid">Save Changes</button>
+        <span class="card-vertical-img overlay-content"
+          ><i class="fas fa-play overlay-play-icon"></i> Play</span
+        >
+
+        <div class="card-text-overlay-row">
+          <img
+            loading="lazy"
+            class="card-horizontal-img"
+            src="/all-css/assets/netflixlogo.jpg"
+            alt="netflix"
+          />
+
+          <div>
+            <h1 class="card-head">
+              Attack On Titan | Final Trailer
+            </h1>
+            <p class="card-text">Netflix</p>
+          </div>
         </div>
       </div>
-    </section>
-
-    <section class="component-section">
-        <h2 class="cs-heading">Modal Demo</h2>
-        
-        <button id="modal-demo-btn" class="btn primary-btn-solid border-r-l">
-            Modal Demo
-          </button>
-  
-          <div id="modal-container" class="d-none modal-container">
-            <div class="mx-auto modal">
-              <div class="modal-head">Modal Head</div>
-  
-              <p class="modal-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-  
-              <div class="modal-foot">
-                <button id="modal-close-btn" class="btn primary-btn-outline">
-                  Close
-                </button>
-                <button class="btn primary-btn-solid">Save Changes</button>
-              </div>
-            </div>
-          </div>
-        </section>
+</section>
+<!-- card ends -->
 
 
-<!-- modal ends -->
+<!-- grid starts -->
+<section class="component-section">
+    <h2 class="cs-heading">Two Columns Grid</h2>
 
+    <div class="bg-purple border-r-0p2 grid grid-cols-2 p-1 ">
+      <div class="bg-purple border-r-0p2 fw-bold mx-0p5 p-1 text-white">
+        Grid Item One
+      </div>
+      <div class="bg-purple border-r-0p2 fw-bold mx-0p5 p-1 text-white">
+        Grid Item Two
+      </div>
+    </div>
+  </section>
 
-<script src="js/index.js"></script>
+  <section class="component-section">
+    <h2 class="cs-heading">Two Rows Grid</h2>
+
+    <div class="bg-purple border-r-sm grid grid-rows-2 p-1 text-white">
+      <div class="bg-violet border-r-sm fw-bold my-1 p-1 text-white">
+        Grid Item One
+      </div>
+      <div class="bg-purple border-r-sm fw-bold my-1 p-1 text-white">
+        Grid Item Two
+      </div>
+    </div>
+  </section>
+
+  <section class="component-section">
+    <h2 class="cs-heading">Three Columns Grid</h2>
+
+    <div class="bg-purple border-r-sm grid grid-cols-3 p-1 text-white">
+      <div class="bg-violet border-r-sm fw-bold mx-1 p-1 text-white">
+        Grid Item One
+      </div>
+      <div class="bg-violet border-r-sm fw-bold mx-1 p-1 text-white">
+        Grid Item Two
+      </div>
+      <div class="bg-violet border-r-sm fw-bold mx-1 p-1 text-white">
+        Grid Item Three
+      </div>
+    </div>
+  </section>
+
+  <section class="component-section">
+    <h2 class="cs-heading">Three Rows Grid</h2>
+
+    <div class="bg-purple border-r-sm grid grid-rows-3 p-1 text-white">
+      <div class="bg-violet border-r-sm fw-bold my-1 p-1 text-white">
+        Grid Item One
+      </div>
+      <div class="bg-violet border-r-sm fw-bold my-1 p-1 text-white">
+        Grid Item Two
+      </div>
+      <div class="bg-violet border-r-sm fw-bold my-1 p-1 text-white">
+        Grid Item Three
+      </div>
+    </div>
+  </section>
+<!-- grid ends -->
+
+  <script src="js/index.js"></script>
 </body>
 </html>

@@ -30,3 +30,6 @@
     border-color: var(--color-slate-600);
   }
   
+.border-red-700 {
+    border-color: var(--color-red-700);
+  }
