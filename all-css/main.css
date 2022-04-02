@@ -12,6 +12,7 @@
 @import url("components/modal.css");
 @import url("components/toast.css");
 @import url("components/rating.css");
+@import url("components/tooltip.css");
 
 /* importing utilities */
 @import url("utilities/font-size.css");

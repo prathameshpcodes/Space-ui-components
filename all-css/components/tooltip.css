@@ -1,0 +1,32 @@
+.tooltip {
+  position: relative;
+}
+
+.tooltip:hover .tooltip-text {
+  background: var(--color-slate-800);
+  border-radius: 0.2rem;
+  color: var(--color-white);
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  position: absolute;
+  width: max-content;
+  z-index: 1;
+}
+
+.tooltip-left {
+  bottom: 0;
+  left: 0;
+  transform: translate(-100%, 80%);
+}
+
+.tooltip-right {
+  bottom: 0;
+  right: 0;
+  transform: translate(100%, 80%);
+}
+
+.tooltip > .tooltip-text {
+  display: none;
+}
